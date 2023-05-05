@@ -1,6 +1,12 @@
 Приложение должно быть создано с помощью create-react-app, с использованием redux, rest API и написано на typescript. Внешний вид приложения состоит из фильтра состояния соединения, департаментов и «плиток»(плитки выделены зелёным) бригад. Вёрстка должна быть выполнена с использованием библиотеки https://ant.design/. Пример приложения: https://v1336-test-task.vercel.app/.
 
-Данные забираются тремя методами: https://v1336-api-test.onrender.com/getBrigadesData - получение бригад с данными https://v1336-api-test.onrender.com/getDepartments - получение департаментов https://v1336-api-test.onrender.com/getConnectionState - получение статусов подключения
+Данные забираются тремя методами:
+
+https://v1336-api-test.onrender.com/getBrigadesData - получение бригад с данными
+
+https://v1336-api-test.onrender.com/getDepartments - получение департаментов
+
+https://v1336-api-test.onrender.com/getConnectionState - получение статусов подключения
 
 Приложение должно быть адаптированно как в десктопной, так и в мобильной версии браузера. На время загрузки данных должен отображаться прелоадер. Если сервер с данными недоступен, должно выводиться предупреждающее сообщение.
 
@@ -8,8 +14,13 @@
 
 Использованный стек:
 react (create react app)
+
 redux-toolkit
+
 typescript
+
 tailwind
+
 antdesign
+
 axios
