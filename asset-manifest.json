@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/test-ts-rtk-2/static/css/main.fc4ebfc8.css",
+    "main.js": "/test-ts-rtk-2/static/js/main.15a2c566.js",
+    "index.html": "/test-ts-rtk-2/index.html",
+    "main.fc4ebfc8.css.map": "/test-ts-rtk-2/static/css/main.fc4ebfc8.css.map",
+    "main.15a2c566.js.map": "/test-ts-rtk-2/static/js/main.15a2c566.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fc4ebfc8.css",
+    "static/js/main.15a2c566.js"
+  ]
+}
