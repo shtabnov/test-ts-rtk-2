@@ -36,12 +36,13 @@ function App() {
     if (!isLoading) {
         content = (
             <>
-                <header className="w-screen sticky top-0 z-10">
+                <header className="w-screen fixed top-0 z-10">
                     <Filters
                         departments={departments}
                         connectionState={connectionState}
                     />
                 </header>
+                <div className="clear h-[96px] max-sm:h-[150px]"></div>
                 <BrigadesList
                     brigades={brigades}
                     departments={departments}
